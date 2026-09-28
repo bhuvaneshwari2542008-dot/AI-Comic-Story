@@ -1,0 +1,14 @@
+.env
+.venv/
+comiccraft-env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+app/static/generated/*
+!app/static/generated/.gitkeep

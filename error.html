@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block title %}Error | ComicCraft{% endblock %}{% block content %}<section class="card status"><div class="status-icon">!</div><p class="eyebrow">Generation interrupted</p><h1>We could not create your comic</h1><p>{{ message }}</p><a class="button primary" href="{{ retry_url or url_for('home') }}">Try again</a></section>{% endblock %}

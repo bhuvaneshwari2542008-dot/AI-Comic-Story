@@ -1,0 +1,1 @@
+const form=document.querySelector('#comic-form');const button=document.querySelector('#submit-button');const message=document.querySelector('#generation-message');form?.addEventListener('submit',()=>{if(!form.checkValidity())return;button.disabled=true;button.textContent='Creating comic…';message.hidden=false;});
